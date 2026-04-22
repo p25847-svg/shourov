@@ -3,44 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name</title>
+    <title>Shourov Das</title>
 
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            background-color: #f5f7fa;
+            background-color: #f0fdf4;
             color: #333;
         }
 
         header {
-            background-color: #2c3e50;
+            background: linear-gradient(135deg, #16a34a, #22c55e);
             color: white;
             text-align: center;
-            padding: 40px 20px;
+            padding: 50px 20px;
+        }
+
+        /* PROFILE IMAGE */
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #bbf7d0;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        nav {
+            background: #15803d;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #bbf7d0;
         }
 
         section {
             max-width: 800px;
             margin: 30px auto;
-            padding: 20px;
+            padding: 25px;
             background: white;
+            border-left: 6px solid #22c55e;
             border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
         }
 
-        h1, h2 {
-            margin-bottom: 10px;
-        }
-
-        ul {
-            padding-left: 20px;
+        h2 {
+            color: #16a34a;
         }
 
         footer {
             text-align: center;
             padding: 20px;
-            color: #777;
+            color: #666;
         }
     </style>
 </head>
@@ -48,43 +72,49 @@
 <body>
 
 <header>
-    <h1>shourov das</h1>
+
+    <!-- ADD YOUR IMAGE HERE -->
+    <img src="your-photo.jpg" alt="Profile Photo" class="profile-img">
+
+    <h1>Shourov Das</h1>
     <p>Aspiring Developer | Student | Tech Enthusiast</p>
+
 </header>
 
-<section>
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
     <h2>About Me</h2>
-    <p>
-        I am a motivated student interested in technology and web development.
-        I enjoy building projects and learning new programming skills.
-    </p>
+    <p>I am a motivated student interested in technology and web development.</p>
 </section>
 
-<section>
+<section id="skills">
     <h2>Skills</h2>
     <ul>
         <li>HTML</li>
         <li>CSS</li>
         <li>Python</li>
         <li>Git & GitHub</li>
-        <li>Problem Solving</li>
     </ul>
 </section>
 
-<section>
+<section id="projects">
     <h2>Projects</h2>
-    <p>
-        Personal Portfolio Website – Designed and developed a responsive website using HTML and CSS to showcase my skills and projects.
-    </p>
+    <p>Portfolio Website and Python Calculator.</p>
 </section>
 
-<section>
+<section id="contact">
     <h2>Contact</h2>
     <p>Email: p25847@psuca.edu</p>
 </section>
 
 <footer>
-    <p>© 2026 shourov das </p>
+    <p>© 2026 Shourov Das</p>
 </footer>
 
 </body>
