@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shourov Das Portfolio</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-color: #fff5f5;
+        color: #7f1d1d;
+    }
+
+    header {
+        background-color: #dc2626;
+        color: #fff1f2;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .profile-img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 5px solid #f87171;
+        object-fit: cover;
+        margin-bottom: 15px;
+    }
+
+    nav {
+        background: #b91c1c;
+        text-align: center;
+        padding: 12px;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    nav a {
+        color: #ffe4e6;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        color: #ffffff;
+    }
+
+    section {
+        max-width: 800px;
+        margin: 30px auto;
+        padding: 25px;
+        background: #ffffff;
+        border-left: 6px solid #dc2626;
+        border-radius: 8px;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    section:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    }
+
+    h1, h2 {
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        color: #b91c1c;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #dc2626;
+        color: #fff1f2;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    @media (max-width: 600px) {
+        header {
+            padding: 30px 15px;
+        }
+
+        .profile-img {
+            width: 110px;
+            height: 110px;
+        }
+
+        nav a {
+            display: inline-block;
+            margin: 8px 10px;
+        }
+
+        section {
+            margin: 15px;
+            padding: 18px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="profile.jpg" class="profile-img" alt="Profile Picture">
+    <h1>Shourov Das</h1>
+    <p>Welcome to my personal website</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! My name is Shourov Das. I am passionate about web development and building creative projects.</p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <p>Showcase your work here.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: shourovdas456@gmail.com</p>
+</section>
+
+<footer>
+    <p>© 2026 Shourov Das. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
